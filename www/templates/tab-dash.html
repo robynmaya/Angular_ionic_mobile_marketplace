@@ -8,14 +8,16 @@
         <div class="col col-75">
           <div class="item item-avatar">
             <img src={{product.seller_image}}>
-            <h2>{{product.name}}</h2>
-            <p>{{product.tagline}}</p>
+            <h2 style="margin-top:.6em;">{{product.name}}</h2>
           </div>
         </div>
         <div class="col" style="margin-top: 25px; text-align: right; font-size: 13px;">
           <i class="ion-pricetag assertive"></i>
           {{product.price | currency:"$":0}}
         </div>
+      </div>
+      <div class="row" style="padding-left: 1em; padding-right: 1em; padding-bottom:1em;">
+        <p>{{product.tagline}}</p>
       </div>
 
       <div class="item item-body">
