@@ -1,0 +1,30 @@
+<ion-view view-title="Home">
+  <ion-content class="padding">
+    <ion-item class="list card" ng-repeat="product in products">
+      <div class="row">
+        <div class="col col-75">
+          <div class="item item-avatar">
+            <img src={{product.seller_image}}>
+            <h2>{{product.name}}</h2>
+            <p>{{product.tagline}}</p>
+          </div>
+        </div>
+        <div class="col" style="margin-top: 25px; text-align: right">
+          <i class="ion-pricetag assertive"></i>
+          ${{product.price}}
+        </div>
+      </div>
+
+      <div class="item item-body">
+        <img class="full-image" src="{{product.image}}">
+        <p>
+          {{product.description}}
+        </p>
+        <p>
+          <a class="subdued">1 Like</a>
+          <a class="subdued">5 Comments</a>
+        </p>
+      </div>
+    </ion-item>
+  </ion-content>
+</ion-view>

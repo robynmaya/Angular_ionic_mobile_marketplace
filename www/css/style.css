@@ -1,0 +1,58 @@
+/* Empty. Add your own CSS if you like */
+
+.home-background {
+  background: url(../img/shopping-bag.svg) no-repeat center center fixed;
+  background-size: cover;
+
+}
+.popup-container .popup {
+  border-radius: 5%;
+  width: 70%;
+  background-color: white;
+}
+
+.panel-body .loginForm {
+  border: none;
+}
+
+.loginForm .loginInput {
+  padding-left: 20px;
+}
+
+.ion-images:before {
+  font-size: 80px;
+}
+
+button i.ion-ios-camera:before {
+  font-size: 80px;
+}
+
+div.list.card.photoChoice {
+  margin-top: 30%;
+}
+
+div.item.item-divider.title {
+  padding: 5%;
+  background-color: #00B0B6;
+}
+
+div.item-item-divider.title h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+}
+
+div.item.item-image.choice {
+  padding: 5%;
+}
+
+.item.inputUpload {
+  border: none;
+}
+
+.item.inputUploadTop {
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  border-top: darkgrey solid 1px;
+}

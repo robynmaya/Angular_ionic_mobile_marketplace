@@ -1,0 +1,18 @@
+<div class="popup-fade" id="logPopup" title="login">
+  <div class="panel-body">
+    <form name="login" ng-model="user" ng-submit="login(user)">
+      <label class="item item-input loginForm">
+        <i class="ion-person"></i>
+        <input class="loginInput" type="text" ng-model="user.name" placeholder="Username">
+      </label>
+      <label class="item item-input loginForm">
+        <i class="ion-email"></i>
+        <input class="loginInput" type="text" ng-model="user.email" placeholder="Email">
+      </label>
+      <label class="item item-input loginForm">
+        <i class="ion-locked"></i>
+        <input class="loginInput" type="password" ng-model="user.password" placeholder="Password">
+      </label>
+    </form>
+  </div>
+</div>

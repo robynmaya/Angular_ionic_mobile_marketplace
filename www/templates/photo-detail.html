@@ -1,0 +1,33 @@
+<ion-view view-title="Photo">
+  <ion-content>
+    <ion-list>
+      <form ng-submit="button(product)">
+        <div class="row">
+          <div class="col col-33">
+            <img style="height: 140px; width: 140px;" ng-src="{{imgURI}}">
+          </div>
+          <div class="col col-50 col-offset-10">
+            <label class="item item-input inputUpload">
+              <input type="text" ng-model="product.name" placeholder="Product Name">
+            </label>
+            <label class="item item-input inputUploadTop">
+              <input type="text" ng-model="product.tagline" placeholder="Tagline">
+            </label>
+            <label class="item item-input inputUploadTop">
+              <input type="text" ng-model="product.price" placeholder="Price">
+            </label>
+          </div>
+        </div>
+
+        <label class="item item-input inputUploadTop">
+          <input type="text" ng-model="product.description" placeholder="Description">
+        </label>
+
+        <br/>
+        <button type="submit" class="button button-block button-balanced" style="display: flex; flex-direction: column; justify-content: center;">
+          Submit
+        </button>
+      </form>
+    </ion-list>
+  </ion-content>
+</ion-view>
