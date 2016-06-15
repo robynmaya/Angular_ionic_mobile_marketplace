@@ -1,28 +1,28 @@
 <ion-view>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
   <ion-nav-title class="lalalouie">
     <h1 align="center" style="font-family: 'Sacramento', cursive; margin-top:3px; color: #82C0BD; font-weight: bold;">Lala Louie</h1>
   </ion-nav-title>
   <ion-content>
-    <ion-list>
     <div class="list card photoChoice">
       <div class="item item-divider title">
-        <h2>Type of Photo</h2>
+        <h2 align="center" style="font-family: 'Quicksand', sans-serif; font-weight: bold; color: #ffffff";>Upload A Picture</h2>
       </div>
-        <div class="item item-image choice">
-          <div class="row">
-            <div class="col">
-              <button class="button button-icon" ng-click="takePhoto()">
-                <i class="ion-ios-camera"></br></i>Take Photo
-              </button>
-            </div>
-            <div class="col">
-              <button class="button button-icon" ng-click="choosePhoto()">
-                <i class="ion-images"></br></i>Photo Library
-              </button>
-            </div>
+      <div class="item item-image choice">
+        <div class="row">
+          <div class="col">
+            <button class="button button-icon" style="font-family: 'Quicksand', sans-serif; font-size: 12px;" ng-click="takePhoto()">
+              <i class="ion-ios-camera" style="color: #EF8065"></br></i>Take Photo
+            </button>
+          </div>
+          <div class="col">
+            <button class="button button-icon" style="font-family: 'Quicksand', sans-serif; font-size: 12px;" ng-click="choosePhoto()">
+              <i class="ion-images" style="color: #EAC773"></br></i>Photo Library
+            </button>
           </div>
         </div>
       </div>
-    </ion-list>
+    </div>
   </ion-content>
 </ion-view>
