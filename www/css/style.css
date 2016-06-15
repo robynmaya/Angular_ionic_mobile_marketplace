@@ -50,12 +50,20 @@ div.item.item-image.choice {
   padding: 5%;
 }
 
+
 .item.inputUpload {
   border: none;
 }
 
 .item.inputUploadTop {
   border-bottom: none;
+  border-right: none;
+  border-left: none;
+  border-top: darkgrey solid 1px;
+}
+
+.item.inputUploadDesc {
+  border-bottom: darkgrey solid 1px;
   border-right: none;
   border-left: none;
   border-top: darkgrey solid 1px;
