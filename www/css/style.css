@@ -3,8 +3,12 @@
 .home-background {
   background: url(../img/shopping-bag.svg) no-repeat center center fixed;
   background-size: cover;
-
 }
+
+.lalalouie {
+  font-family: 'Sacramento' cursive;
+}
+
 .popup-container .popup {
   border-radius: 5%;
   width: 70%;
