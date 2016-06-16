@@ -5,20 +5,19 @@
     <h1 align="center" style="font-family: 'Sacramento', cursive; margin-top:3px; color: #82C0BD; font-weight: bold;">Lala Louie</h1>
   </ion-nav-title>
   <ion-content class="padding">
-    <ion-item class="list card" ng-repeat="product in products">
+    <ion-item class="list card" style="padding: 13px;" ng-repeat="product in products">
       <div class="row">
         <div class="col col-75">
           <div class="item item-avatar">
             <img src={{product.seller_image}}>
-            <h2 style="font-family: 'Quicksand', sans-serif; margin-top:.6em;">{{product.name}}</h2>
+            <h2 style="font-family: 'Quicksand', sans-serif; margin-top:4px; font-size:15px;">{{product.name}}</h2>
           </div>
         </div>
-        <div class="col" style="font-family: 'Quicksand', sans-serif; margin-top: 25px; text-align: right; font-size: 13px;">
-          <i class="ion-pricetag assertive"></i>
-          {{product.price | currency:"$":0}}
-        </div>
+
+            <a class="close-ribbon"><center><span style="font-size: 14px;">{{product.price | currency:"$":0}}</span></center></a>
+
       </div>
-      <div class="row" style="font-family: 'Quicksand', sans-serif; padding-left: 1em; padding-right: 1em; padding-bottom:1em;">
+      <div class="row" style="font-family: 'Quicksand', sans-serif; padding-left: 1em; padding-right: 1em; padding-bottom:5px;">
         <p>{{product.tagline}}</p>
       </div>
 

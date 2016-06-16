@@ -12,7 +12,7 @@ app.factory('Auth', function(FURL, $firebaseAuth, $firebaseObject, $state){
       var profile = {
         name: user.name,
         email: user.email,
-        gravatar: get_gravatar(user.email, 40)
+        gravatar: get_gravatar(user.email, 50)
       }
       return ref.child('profile').child(uid).set(profile);
     },
@@ -278,7 +278,7 @@ app.factory('Auth', function(FURL, $firebaseAuth, $firebaseObject, $state){
         return i.toLowerCase()
       };
 
-      var size = size || 40;
+      var size = size || 50;
 
       return 'https://www.gravatar.com/avatar/' + MD5(email) + '.jpg?d=identicon';
     }

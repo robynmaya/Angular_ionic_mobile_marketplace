@@ -31,8 +31,6 @@ button i.ion-ios-camera:before {
   font-size: 80px;
 }
 
-
-
 div.item.item-divider.title {
   padding: 5%;
   background-color: #00B0B6;
@@ -65,4 +63,28 @@ div.item.item-image.choice {
   border-right: none;
   border-left: none;
   border-top: darkgrey solid 1px;
+}
+
+.close-ribbon{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  right: .5em;
+  color: #eee;
+  font-size: 2em;
+  width: 1.5em;
+  line-height: 12px;
+}
+.close-ribbon:after {
+  content: "";
+  font-size: 0.5em;
+  position: absolute;
+  border: 1.5em solid #F44336;
+  z-index: -1;
+  top: 0em;
+  border-top-width: 1.5em;
+  border-bottom-color: transparent;
+  right: 0;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
 }
