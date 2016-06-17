@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "app1": "mobile-marketplace",
+    "default": "mobile-marketplace"
+  }
+}
